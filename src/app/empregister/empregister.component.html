@@ -1,0 +1,42 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+
+<div style="text-align:center">
+<h1>
+  {{ title }}!
+ </h1>
+
+  
+<div class="addform">
+<h2>ADD EMPLOYEE DETAILS:</h2>
+
+<form>
+  <div class="col-lg-3 col-md-6">
+  <div class="form-group">
+    <label for="EID"> E-ID </label>
+    <input type="text" class="form-control" id="EID" required [(ngModel)]="model.EID" name="EID">
+</div>
+</div>
+<div class="col-lg-3 col-md-6">
+<div class="form-group">
+    <label for="ENAME"> E-NAME </label>
+    <input type="text" class="form-control" id="ENAME" required [(ngModel)]="model.ENAME" name="ENAME">
+</div>
+</div>
+<div class="col-lg-3 col-md-6">
+<div class="form-group">
+    <label for="ESALARY"> E-SALARY </label>
+    <input type="text" class="form-control" id="ESALARY" required [(ngModel)]="model.ESALARY" name="ESALARY">
+</div>
+</div>
+
+<div class="col-lg-3 col-md-6">
+<div class="form-group">
+    <label for="EJDATE"> E-JOINING DATE </label>
+    <input type="text" class="form-control" id="EJDATE" required [(ngModel)]="model.EJDATE" name="EJDATE">
+</div>
+</div>
+<button type="submit" class="button" (click)="register()">Submit</button>
+</form>
+
+</div>

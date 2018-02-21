@@ -1,0 +1,28 @@
+ 
+<table class="display nowrap table table-bordered">
+<thead>
+<tr>
+<th>EID</th>
+<th>E-NAME</th>
+<th>E-SALARY</th>
+<th>E-JOINING DATE</th>
+</tr>
+</thead>
+<tbody>
+<tr *ngFor="let std of stdss">
+<td>{{std.EID}}</td>
+<td>{{std.ENAME}}</td>
+<td>{{std.ESALARY}}</td>
+<td>{{std.EJDATE}}</td>
+<td><button type="button" id="owaddClientBasicInfo" (click)="delData(std)" class="btn btn-info pull-right">Delete</button>
+<button type="button" id="owaddClientBasicInfo" (click)="editData(std)" class="btn btn-info pull-right">Edit</button></td>
+</tr>
+<tr >
+<td colspan="5" class="text-center">No Records</td>
+</tr>
+</tbody>
+<tfoot>
+
+</tfoot>
+</table> 
+ 
