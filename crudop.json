@@ -1,51 +1,25 @@
 {
   "users": [
     {
-      "id": 1,
-      "E-NAME": "jonah ravi",
-      "E-SALARY": 900000,
-      "E-JOINING DATE": 1313123
+      "EID": "11111111",
+      "ENAME": "1111111111111",
+      "ESALARY": "111111111111",
+      "EJDATE": "11111111",
+      "id": 1
     },
     {
-      "id": 2,
-      "E-NAME": "jonah ravi",
-      "E-SALARY": 900000,
-      "E-JOINING DATE": 1313123
-    },
-    {
-      "EID": "3",
-      "ENAME": "dfgdf",
-      "ESALARY": "34534",
-      "EJDATE": "34534",
+      "EID": "56",
+      "ENAME": "dfgfdg",
+      "ESALARY": "443",
+      "EJDATE": "sdfs",
       "id": 3
     },
     {
-      "EID": "234",
-      "ENAME": "fwe",
-      "ESALARY": "123",
-      "EJDATE": "123",
+      "EID": "swfsd",
+      "ENAME": "ravirr",
+      "ESALARY": "sdf",
+      "EJDATE": "sdf",
       "id": 4
-    },
-    {
-      "EID": "123",
-      "ENAME": "qweq",
-      "ESALARY": "123213",
-      "EJDATE": "123123",
-      "id": 5
-    },
-    {
-      "EID": "123",
-      "ENAME": "qwe",
-      "ESALARY": "123",
-      "EJDATE": "123",
-      "id": 6
-    },
-    {
-      "EID": "123123",
-      "ENAME": "123123",
-      "ESALARY": "123123",
-      "EJDATE": "123123",
-      "id": 7
     }
   ]
 }

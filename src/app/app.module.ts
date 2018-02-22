@@ -6,16 +6,28 @@ import {HttpModule} from "@angular/http";
 import { CrudoptableComponent } from './crudoptable/crudoptable.component';
 import { EmpregisterComponent } from './empregister/empregister.component';
 import {Routes, RouterModule} from '@angular/router';
+import { EditUserComponent } from './edit-user/edit-user.component';
+
 
 const routes: Routes =[
   {
     path:"",
-    redirectTo:'register',
+    redirectTo:'tableedits',
     pathMatch:'full'
+    
   },
+  // {
+  //   path:"employees",
+  //   component:DisplayEmployeesComponent
+    
+  // },
   {
   path:'register',
   component:EmpregisterComponent
+},
+{
+  path:'editUser/:id',
+  component:EditUserComponent
 },
 {
   path:"tableedits",
@@ -31,7 +43,9 @@ const routes: Routes =[
   declarations: [
     AppComponent,
     CrudoptableComponent,
-    EmpregisterComponent
+    EmpregisterComponent,
+    EditUserComponent
+   
   ],
   imports: [
     BrowserModule,
