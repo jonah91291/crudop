@@ -5,11 +5,6 @@ import 'rxjs/add/operator/map';
 import { Router } from '@angular/router';
 
 
-@Component({
-  selector: 'app-crudoptable',
-  templateUrl: './crudoptable.component.html',
-  styleUrls: ['./crudoptable.component.css']
-})
 export class CrudoptableComponent implements OnInit {
 title="test";
 users=[]
